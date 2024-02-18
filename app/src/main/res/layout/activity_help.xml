@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HelpActivity">
+
+    <TextView
+        android:id="@+id/helpText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. 플랫폼/장르 리스트 클릭 시, 원하는 플랫폼과 장르를 선택할 수 있다\n
+직접 입력도 가능하지만, 틀린 플랫폼/장르를 입력할 시 입력창이 초기화가 됨."
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/helpText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2. 원하는 플랫폼/장르를 모두 입력하면 데이터 요청하기 버튼을 클릭."
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/helpText" />
+    <TextView
+        android:id="@+id/helpText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3. 만약 플랫폼/장르 리스트에 있는 문자열을 입력해도 데이터가 없을 수 있음.\n
+만약 없다면, 하단 토스트 창에 데이터가 없다는 내용이 뜸."
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/helpText2" />
+    <TextView
+        android:id="@+id/helpText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4. 데이터 요청하기를 누른 후, 원하는 게임 이름 옆 즐겨찾기 버튼을 누르면 북마크가 됨."
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/helpText3" />
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" 돌아가기"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/helpText4" />
+</androidx.constraintlayout.widget.ConstraintLayout>
