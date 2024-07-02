@@ -15,7 +15,7 @@ Popular Video Games 🎮🕹️: https://www.kaggle.com/datasets/matheusfonsecac
 ## 💻 개발 환경
 - **Version** : Java 22
 - **IDE** : Android Studio
-- **Framework** : java API Framework
+- **Framework** : Java API Framework
 
 ## 🙋‍♂️ 만든 사람들
 | 역할      | 만든 사람 |
