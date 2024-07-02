@@ -18,7 +18,7 @@ Popular Video Games 🎮🕹️: https://www.kaggle.com/datasets/matheusfonsecac
 - **Framework** : java API Framework
 
 ## 만든 사람들
-| 역할      | 기여자 GitHub 프로필 |
+| 역할      | 만든 사람 |
 |-----------|----------------------|
 | 데이터 분석 | [우민석](https://github.com/mindoll1101) |
 | 데이터 분석 | [송하민](https://github.com/Songhamin01) |
