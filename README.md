@@ -14,3 +14,8 @@ Popular Video Games 🎮🕹️: https://www.kaggle.com/datasets/matheusfonsecac
 데이터 분석 및 전처기 기간: 2024.01.14(일) ~ 2024.02.07(수)
 앱 개발 기간: 2024.02.07(수) ~ 2024.02.18(일)
 
+## 💻 개발 환경
+- **Version** : Java 22
+- **IDE** : Android Studio
+- **Framework** : java API Framework
+
