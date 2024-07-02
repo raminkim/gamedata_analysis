@@ -17,7 +17,7 @@ Popular Video Games 🎮🕹️: https://www.kaggle.com/datasets/matheusfonsecac
 - **IDE** : Android Studio
 - **Framework** : java API Framework
 
-## 만든 사람들
+## 🙋‍♂️ 만든 사람들
 | 역할      | 만든 사람 |
 |-----------|----------------------|
 | 데이터 분석 | [우민석](https://github.com/mindoll1101) |
